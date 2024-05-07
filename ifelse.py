@@ -104,7 +104,7 @@ else:
     print("The character are in lower case")
 '''
 
-##11 TO INUT WEEK NUMBER AND PRINT WEEK DAY
+##11 TO INPUT WEEK NUMBER AND PRINT WEEK DAY
 
 '''
 week=int(input("Enter a week number:"))
@@ -287,9 +287,11 @@ elif SCIENCE==CHEMISTRY==BIOLOGY==MATHEMATICS==COMPUTER<40:
     print("GRADE F")
 '''
 
-##20.
+##20 
 
 #21 amount electricity
+
+'''
 unit=int(input("Enter a electricity unit:"))
 if   unit<=50:
     a=unit*0.5
@@ -323,5 +325,5 @@ else:
     print("The amount of 20% electricity unit is: $",b)
     print("The amount after including 20% surcharge is: $",c)
     print("The total amount  to be paid for electricity used  is: $",c)
-
+'''
 
