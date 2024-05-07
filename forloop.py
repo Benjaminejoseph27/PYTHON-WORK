@@ -18,6 +18,11 @@ for b in range(b,1,1):
 
 ##3
 
+'''
+for char in range(ord('a'), ord('z')+1):
+    print(chr(char), end=" ")
+'''
+
 ##4
 
 '''
@@ -70,5 +75,20 @@ print("The sum of even numbers from 1 to",n,"is",sum)
 
 ##9
 
-n=int(input("Enter a number:"))
-for i in range(
+'''
+num = int(input("Enter the number whose multiplication table you want to print: "))
+print("Multiplication Table of", num)
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+'''    
+
+##10
+
+'''
+number = int(input("Enter a number: "))
+count = 0
+for digit in str(number):
+    count += 1
+print("Number of digits in", number, ":", count)
+'''
