@@ -1,0 +1,51 @@
+## reverse string
+
+'''
+input_str = input("Enter a string =>")
+rev = input_str[::-1]
+print(" The reverse of the string =>",rev)
+
+
+class Solution:
+    def reverseWord(self, str: str) -> str:
+        rev = ""
+        for i in range(len(str)-1, -1, -1):
+            rev += str[i]
+        return rev
+
+    
+s=Solution()
+x=input("enter a string =>")
+a = s.reverseWord(x)
+print(a)
+
+
+
+class Solution:
+    def reverseWord(self, str: str) -> str:
+        rev = ""
+        for i in range(len(str)-1, -1, -1):
+            rev += str[i]
+        print(rev)
+
+    
+s=Solution()
+x=input("enter a string =>")
+s.reverseWord(x)
+'''
+
+
+
+##palindrome string
+
+class Solution:
+    def isPalindrome(self, S: str):
+        for i in range(len(S) // 2):
+            if S[i] != S[len(S) - i - 1]:
+                return 0
+        return 1
+
+s=Solution()
+b=input("enter a string to check palindrome:")
+a=s.isPalindrome(b)
+print(a)
