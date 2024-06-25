@@ -1,0 +1,164 @@
+##Pattern 1
+
+for i in range(5):
+    for j in range(5):
+        print("*",end=' ')
+    print()
+print("\n")
+
+##Pattern 2
+
+for i in range(1,5+1):
+    for j in range(5):
+        print(i,end=' ')
+    print()
+print("\n")
+
+    
+##Pattern 3
+
+for i in range(5):
+    for j in range(1,5+1):
+        print(j,end=' ')
+    print()
+print("\n")
+
+##Pattern 4
+
+for i in range(5,0,-1):
+    for j in range(1,6):
+        print(i,end=' ')
+    print()
+print("\n")
+
+
+##Pattern 5
+
+for i in range(1,6):
+    for j in range(5,0,-1):
+        print(j,end=' ')
+    print()
+print("\n")
+
+##Pattern 6
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(i * 5 + j - 5, end=" ")
+    print()
+print("\n")
+
+##Pattern 7
+
+for i in range(1, 50, 10):
+    for j in range(i, i + 10, 2):
+        print(j, end=" ")
+    print()
+print("\n")
+
+##Pattern 8
+
+for i in range(2, 52, 10):
+    for j in range(i, i + 10, 2):
+        print(j, end=" ")
+    print()
+print("\n")
+
+##Pattern 9
+
+for i in range(1,6):
+    for j in range(1,6):
+        print(i*j,end=" ")
+    print()
+print("\n")
+
+##Pattern 10
+
+for i in range(1,6):
+    for j in range(1,4):
+        print(min(i,j),max(i,j),end=" ")
+    print()
+print("\n")
+
+
+##Pattern 11
+
+for i in range(1,6):
+    print(i,1,i,2,i,3)
+    if i%5 == 0:
+        print()
+print("\n")
+
+##Pattern 12
+
+for i in range(1, 6):
+    for j in range(i, i + 25 ,5):
+        print(j, end=" ")
+    print()
+print("\n")
+
+
+
+
+
+
+##Pattern 14
+
+
+for i in range(5,0,-1):
+    for j in range(i , i + 25 , 5):
+        print(j , end =" ")
+    print()
+print("\n")
+
+
+
+
+##Pattern 16
+
+for i in range(5):
+    for j in range(1,6):
+        g = i+j
+        print(g,end=" ")
+    print()
+print("\n")
+
+##Pattern 17
+
+for i in  range(1,10,2):
+    for j in range(1,10,2):
+        print((i+j)-1 ,end=" ")
+    print()
+print("\n")
+
+##Pattern 18
+
+for i in range(5):
+    for j in range(5):
+        if (i+j) % 2== 0:
+            print("0",end=" ")
+        else:
+            print("1",end=" ")
+    print()
+print("\n")
+
+##Pattern 19
+  
+for i in range(5):
+    for j in range(5):
+        if (i+j) % 2== 0:
+            print("1",end=" ")
+        else:
+            print("0",end=" ")
+    print()
+print("\n")
+
+##Pattern 20
+
+for i in range(5):
+    for j in range(5):
+        if i % 2 == 0 and j % 2 == 0:
+            print("1",end=" ")
+        else:
+            print("0",end=" ")
+    print()
