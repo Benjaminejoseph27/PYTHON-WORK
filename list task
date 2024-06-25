@@ -1,0 +1,80 @@
+##list task
+'''
+
+l =[1,2,3,4,5,6,7,8,9]
+even=[]
+odd=[]
+for i in l:
+    if i%2==0:
+        even.append(i)
+    else :
+        odd.append(i)
+print("Even number" ,even)
+print("Odd number",odd)
+
+
+'''
+
+##sum and product of values in list
+
+'''
+c=0
+b=1
+m =[0,2,5,10,0]
+for i in m:
+    c+=i
+    if i>0:
+       b*=i
+print("sum of list :" ,c)
+print("product of list :",b)
+'''
+
+'''
+a =[0,21,51,101,0]
+s =[]
+for i in a:
+    if i != 0:
+        sum = 0
+        for j in str(i):
+            sum += int(j)
+        s.append(sum)
+    else:
+        s.append(i)
+print(s)
+'''
+'''
+m =[101,20,51]
+su=[]
+product=[]
+for i in m:
+    if i>0:
+        s=0
+        p=1
+        ivv
+        for j in str(i):
+            s+=int(j)
+            p*=int(j)
+        s.append(su)
+        p.append(product)
+    else:
+        s.append(i)
+        p.append(i)
+print(su)
+print(product)
+'''
+
+
+
+
+##string to dict
+
+a = " Captain America"
+b = a.casefold()
+c = b.strip()
+d = {}
+for i in c:
+    if i in d:
+        d[i] = d[i] + 1
+    else:
+        d[i] = 1
+print(d,end =" ")
