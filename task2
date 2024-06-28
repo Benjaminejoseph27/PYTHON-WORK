@@ -1,0 +1,17 @@
+l=[]
+a = input("enter the numbers:")
+c = a.split(",")
+for i in c:
+    num = int(i)
+    l.append(num)
+l.sort()
+print(l)
+n = len(l)
+b =[]
+start = l[0]
+end = l[n-1]
+for i in range(start , end):
+    if i not in l:
+        b.append(i)
+print("Missing values =",b)
+print("Missing counts =",len(b))
